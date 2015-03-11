@@ -1,0 +1,28 @@
+
+
+import scala.io.Source
+import java.io.PrintWriter
+
+object FilesAndRegex {
+
+  def main(args: Array[String]): Unit = {
+  	println("files & regex examples")
+  	
+  	// EXAMPLE 1
+  	
+  	// END
+  }
+
+	def reverseFileLines(fileName: String) : Unit = {
+		  val source = Source.fromFile(fileName)
+		  val lines = source.getLines.toArray
+		  source.close
+		  
+		  val reversedLines = lines.reverse
+		  val printWriter = new PrintWriter(fileName)
+		  for (rl <- reversedLines) {
+		    printWriter.println(rl)
+		  }
+		  printWriter.close
+	}
+}

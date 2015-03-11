@@ -1,0 +1,7 @@
+object FilesAndRegex {
+
+  def main(args: Array[String]): Unit = {}
+  	println("files & regex examples");
+  	
+  	Source.fromFile("./mytest1.txt", "UTF-8)
+}
