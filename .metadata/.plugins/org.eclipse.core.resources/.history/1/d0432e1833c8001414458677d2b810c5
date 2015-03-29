@@ -1,5 +1,0 @@
-object FilesAndRegex {
-
-  def main(args: Array[String]): Unit = {}
-  	println("files & regex examples");
-}

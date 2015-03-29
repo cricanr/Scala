@@ -3460,3 +3460,56 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 2015-03-11 22:06:47,033 ERROR [Worker-11] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 2015-03-11 22:06:47,049 ERROR [Worker-11] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
 2015-03-11 22:06:47,049 ERROR [Worker-11] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2015-03-17 20:45:29,975  WARN [main] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during implicit highlighting.
+2015-03-29 12:57:09,091 ERROR [Worker-4] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2015-03-29 12:57:09,113 ERROR [Worker-4] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2015-03-29 12:57:09,113 ERROR [Worker-4] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2015-03-29 12:57:33,919  WARN [ModalContext] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during implicit highlighting.
+2015-03-29 12:58:39,550 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-03-29 12:59:32,594 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-03-29 12:59:38,755 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-03-29 13:51:26,975 ERROR [Worker-2] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2015-03-29 13:51:26,996 ERROR [Worker-2] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2015-03-29 13:51:26,996 ERROR [Worker-2] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2015-03-29 15:34:23,094 ERROR [ForkJoinPool-2-worker-5] - System.err - java.lang.ExceptionInInitializerError
+2015-03-29 15:34:23,094 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.tools.eclipse.logging.HasLogger$class.eclipseLog(HasLogger.scala:16)
+2015-03-29 15:34:23,094 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.tools.eclipse.debug.model.ScalaThreadActor.eclipseLog(ScalaThread.scala:230)
+2015-03-29 15:34:23,094 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.tools.eclipse.debug.BaseDebuggerActor$$anonfun$exceptionHandler$1.applyOrElse(BaseDebuggerActor.scala:135)
+2015-03-29 15:34:23,094 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36)
+2015-03-29 15:34:23,094 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.actors.ReactorTask.run(ReactorTask.scala:39)
+2015-03-29 15:34:23,094 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.actors.Reactor$class.resumeReceiver(Reactor.scala:130)
+2015-03-29 15:34:23,094 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.tools.eclipse.debug.model.ScalaThreadActor.scala$actors$InternalReplyReactor$$super$resumeReceiver(ScalaThread.scala:230)
+2015-03-29 15:34:23,094 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.actors.InternalReplyReactor$class.resumeReceiver(InternalReplyReactor.scala:60)
+2015-03-29 15:34:23,094 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.tools.eclipse.debug.model.ScalaThreadActor.resumeReceiver(ScalaThread.scala:230)
+2015-03-29 15:34:23,094 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.actors.InternalActor$class.searchMailbox(InternalActor.scala:76)
+2015-03-29 15:34:23,094 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.tools.eclipse.debug.model.ScalaThreadActor.searchMailbox(ScalaThread.scala:230)
+2015-03-29 15:34:23,094 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.actors.Reactor$$anonfun$startSearch$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(Reactor.scala:118)
+2015-03-29 15:34:23,094 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.actors.Reactor$$anonfun$startSearch$1$$anonfun$apply$mcV$sp$1.apply(Reactor.scala:115)
+2015-03-29 15:34:23,094 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.actors.Reactor$$anonfun$startSearch$1$$anonfun$apply$mcV$sp$1.apply(Reactor.scala:115)
+2015-03-29 15:34:23,094 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.actors.ReactorTask.run(ReactorTask.scala:33)
+2015-03-29 15:34:23,094 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.actors.ReactorTask.compute(ReactorTask.scala:63)
+2015-03-29 15:34:23,094 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.concurrent.forkjoin.RecursiveAction.exec(RecursiveAction.java:160)
+2015-03-29 15:34:23,095 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+2015-03-29 15:34:23,095 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+2015-03-29 15:34:23,095 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+2015-03-29 15:34:23,095 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2015-03-29 15:34:23,095 ERROR [ForkJoinPool-2-worker-5] - System.err - Caused by: java.lang.NullPointerException
+2015-03-29 15:34:23,095 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.tools.eclipse.logging.EclipseLogger$.<init>(EclipseLogger.scala:27)
+2015-03-29 15:34:23,095 ERROR [ForkJoinPool-2-worker-5] - System.err - at scala.tools.eclipse.logging.EclipseLogger$.<clinit>(EclipseLogger.scala)
+2015-03-29 15:34:23,095 ERROR [ForkJoinPool-2-worker-5] - System.err - ... 21 more
+2015-03-29 15:34:23,101 ERROR [ForkJoinPool-2-worker-1] - System.err - java.lang.NoClassDefFoundError: Could not initialize class scala.tools.eclipse.logging.EclipseLogger$
+2015-03-29 15:34:23,101 ERROR [ForkJoinPool-2-worker-1] - System.err - at scala.tools.eclipse.logging.HasLogger$class.eclipseLog(HasLogger.scala:16)
+2015-03-29 15:34:23,101 ERROR [ForkJoinPool-2-worker-1] - System.err - at scala.tools.eclipse.debug.model.ScalaDebugTargetActor.eclipseLog(ScalaDebugTarget.scala:396)
+2015-03-29 15:34:23,101 ERROR [ForkJoinPool-2-worker-1] - System.err - at scala.tools.eclipse.debug.BaseDebuggerActor$$anonfun$exceptionHandler$1.applyOrElse(BaseDebuggerActor.scala:135)
+2015-03-29 15:34:23,101 ERROR [ForkJoinPool-2-worker-1] - System.err - at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36)
+2015-03-29 15:34:23,101 ERROR [ForkJoinPool-2-worker-1] - System.err - at scala.actors.ReactorTask.run(ReactorTask.scala:39)
+2015-03-29 15:34:23,101 ERROR [ForkJoinPool-2-worker-1] - System.err - at scala.actors.ReactorTask.compute(ReactorTask.scala:63)
+2015-03-29 15:34:23,101 ERROR [ForkJoinPool-2-worker-1] - System.err - at scala.concurrent.forkjoin.RecursiveAction.exec(RecursiveAction.java:160)
+2015-03-29 15:34:23,101 ERROR [ForkJoinPool-2-worker-1] - System.err - at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+2015-03-29 15:34:23,101 ERROR [ForkJoinPool-2-worker-1] - System.err - at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+2015-03-29 15:34:23,102 ERROR [ForkJoinPool-2-worker-1] - System.err - at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+2015-03-29 15:34:23,102 ERROR [ForkJoinPool-2-worker-1] - System.err - at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2015-03-29 15:46:56,283 ERROR [Worker-9] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2015-03-29 15:46:56,284 ERROR [Worker-9] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2015-03-29 15:46:56,284 ERROR [Worker-9] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2015-03-29 16:59:36,907  WARN [org.eclipse.jdt.internal.ui.text.JavaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during implicit highlighting.
