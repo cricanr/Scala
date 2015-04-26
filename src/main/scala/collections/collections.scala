@@ -41,6 +41,12 @@ object Exercises {
     val quantities = List(2, 4, 1, 5)
     val result = zipPriceQuant(prices, quantities)
     println(s"prices: $List(10.2, 231.2, 2, 5) zipped with $List(2, 4, 1, 5) as tupled after calling zipPriceQuant yield: $result\n")
+
+    // exercise 8
+    val array = Array(12.2, 23.1, 4, 64, 24, 5.8)
+    val groupedArray = groupArray(array, 3)
+
+    groupedArray.foreach(i => {  i.foreach(j => print(j.toString + ", ")) } )
   }
 
   def indices(word : String) : mutable.HashMap[Char, mutable.LinkedHashSet[Int]] = {
@@ -82,5 +88,9 @@ object Exercises {
 
   def zipPriceQuant(prices: List[Double], quantities: List[Int]) = {
     (prices zip quantities) map Function.tupled(_ * _)
+  }
+
+  def groupArray(array: Array[Double], noColumns : Int) = {
+    array.grouped(noColumns).toArray.map(_.toArray)
   }
 }
