@@ -1,0 +1,26 @@
+package higherorderfunctions
+
+object higherorderfunctions {
+	def main(args: Array[String]) {
+	  println("bla")
+	  
+	  val coll = values(x => x * x, -5, 5)
+	  println(coll)
+	  
+	  val a = Array(20, 12, 6, 15, 2, 9)
+	  val item = a.reduceLeft(_ max _)
+	  println(item)
+	  
+	  val fact = (1 to 10).reduceLeft(_ * _)
+	  println("Fact(" + 10 + ") = " + fact)
+	}
+	
+	def values(fun : (Int) => Int, low: Int, high: Int) = {
+	  (low to high).map(x => (x, fun(x)))
+	}
+	
+	def fact(n : Int) : Int = {
+	  if (n < 1) 0 else (1 to n).reduceLeft(_ * _)
+	}
+}
+

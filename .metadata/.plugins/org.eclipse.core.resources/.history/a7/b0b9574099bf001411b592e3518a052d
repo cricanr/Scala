@@ -1,0 +1,24 @@
+package maps
+
+object maps {
+	def main(args: Array[String]) {
+		val products = Map(("a", 10), ("b", 20), ("c", 4), ("d", 21))
+		val prodWithDiscount = for ((k,v) <- products) yield (k, (10 * v / 100))
+		
+		for ((k,v) <- prodWithDiscount) Console.printf("prodkey:%s : prodval: %d \n", k, v)
+	}
+}
+
+object maps2 {
+	def main(args: Array[String]) {
+
+	}
+	
+	def minmax(values: Array[Int]) : Map[Int, Int] = {
+	  val sorted = values.sortWith(_ < _)
+	  
+	  val m = Map((1,2))
+	  
+	  sorted(0), sorted(sorted.length -1)
+	}	
+}

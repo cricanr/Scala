@@ -1,0 +1,19 @@
+package higherorderfunctions
+
+object higherorderfunctions {
+	def main(args: Array[String]) {
+	  println("bla")
+	  
+	  val coll = values(x => x * x, -5, 5)
+	  println(coll)
+	  
+	  val numbers = List(1,12,3,53,63,4,2)
+	  val max = numbers.reduceLeft(_ max _)
+	  println(max)
+	}
+	
+	def values(fun : (Int) => Int, low: Int, high: Int) = {
+	  (low to high).map(x => (x, fun(x)))
+	}
+}
+
